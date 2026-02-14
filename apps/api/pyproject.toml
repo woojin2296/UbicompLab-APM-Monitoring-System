@@ -1,0 +1,17 @@
+[project]
+name = "apm-api"
+version = "0.1.0"
+description = "APM Monitoring backend API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.0.0",
+    "ruff>=0.6.0",
+    "pytest>=8.0.0"
+]

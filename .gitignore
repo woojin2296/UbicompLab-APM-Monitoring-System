@@ -1,6 +1,15 @@
-# Local planning files
-/codex.md
+# Local planning and operation convention files
+/.planning/
 
-# Local commit convention rule file
-/commit-rules.md
-/branch-convention.md
+# Local planning docs if moved elsewhere
+/.planning/*
+
+# Build/runtime artifacts
+**/node_modules/
+**/.next/
+**/dist/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
